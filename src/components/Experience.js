@@ -1,9 +1,6 @@
 import React from 'react'
 import { Container,Col,Row } from 'react-bootstrap';
 
-import Card from 'react-bootstrap/Card';
-import EditIcon from '@mui/icons-material/Edit';
-
 function Experience(){
     return(
         <section className='experience' id="">
