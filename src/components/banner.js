@@ -49,23 +49,7 @@ export const Banner =()=>{
     }
     }
     return(
-        // <section className="banner" id="home">
-        //     <Container>
-        //         <Row>
-        //             <Col xs={12} md={6} xl={7}>
-        //                 <span className="tagline">Welcome to my portfolio</span>
-        //                 <h1>{`Hi I am Harshit`}<span className="wrap">{text}</span></h1>
-        //                 <p>
-        //                     Lorem cdvfdvfd vfvfvfr gffrv fv vfrv frvb gfbv gfb grb gbgr b gt rgb rgb rg b rb rb t rb rtb r br br rb
-        //                 </p>
-        //                 <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
-        //             </Col>
-        //             <Col xs={12} md={6} xl={5}>
-        //                 <img src={headerImg} ></img>
-        //             </Col>
-        //         </Row>
-        //     </Container>
-        // </section>
+        
         <section className="banner" id="home">
       <Container>
         <Row className="aligh-items-center">

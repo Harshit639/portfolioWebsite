@@ -653,3 +653,172 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   
 }
+
+
+/* education css */
+
+#cardedu{
+  border-radius:500px;
+  background-color: #151515;
+}
+
+
+.education{
+
+  padding: 80px 0;
+  background-color: #000;
+  
+  
+}
+
+.education h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.itemscontainer{
+  display: flex;
+  align-items: center;
+}
+
+
+.education #cardheader{
+  color: #fff;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  font-size:x-large;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  border-radius: 35px 35px 0px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  
+}
+
+#cardheader2{
+  color: #fff;
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  font-size:x-large;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  border-radius: 35px 35px 0px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.education .cardtitle{
+  color: #fff;
+  font-size: x-large;
+  padding: 25px 0;
+  
+
+}
+
+.education .cardtext{
+  color: #fff;
+  font-size: large;
+  padding-top: 20px;
+}
+
+
+.educationquote{
+  color: #B8B8B8;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+.cardbody{
+  background-color: #151515;
+  border-radius: 0px 0px 35px 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.buttonstyle{
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+/* experience css */
+
+.experience{
+  background-image: url('./assets/img/color-sharp.png'); 
+  margin-left: -100px;
+  
+}
+
+.experience h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  
+
+}
+
+.experience p{
+  color: #B8B8B8;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.experiencehead{
+  margin-top: 50px;
+}
+
+#ghf{
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  padding: 20px 20px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .education .cardtext{
+    color: #fff;
+    font-size: large;
+    padding-top: 0px;
+  }
+
+  .experience{
+    background-image: url('./assets/img/color-sharp.png'); 
+    margin-left: 1px;
+    
+  }
+  
+}
+
+/* 
+#styledacc{
+  --bs-accordion-bg: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  --bs-accordion-btn-color: #fff;
+  --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23212529%27%3e%3cpath fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e);
+} */
+
+
+#accitem{
+  background: linear-gradient(90.21deg, #982e6d -5.91%, #4328bc 111.58%);
+  background-color: #151515;
+  color: #fff;
+}
+
+
+
