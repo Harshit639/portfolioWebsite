@@ -2,6 +2,7 @@ import React from 'react';
 import { Container,Col,Row } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import EditIcon from '@mui/icons-material/Edit';
+import { Slide } from 'react-awesome-reveal';
 
 function Education(){
 
@@ -15,6 +16,7 @@ function Education(){
              
             <Row className="align-items-center">
         <Col xs={12} md={12} xl={6}  >
+        <Slide triggerOnce="true">
             
         <Card  id='cardedu' border="dark" style={{ width: '90%', marginTop: '3rem', marginLeft:'4%' }}>
         <Card.Header id="cardheader">
@@ -37,9 +39,12 @@ function Education(){
           </Card.Text>
         </Card.Body>
       </Card>
+      </Slide>
       <br />
+
       </Col>
       <Col xs={12} md={12} xl={6}  >
+      <Slide direction='right' triggerOnce="true">
 
       <Card  id='cardedu' border="dark" style={{ width: '90%', marginTop: '3rem', marginLeft:'4%' }}>
       <Card.Header id="cardheader2" >
@@ -64,6 +69,7 @@ function Education(){
           
         </Card.Body>
       </Card>
+      </Slide>
       <br />
                 
               

@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 
 import emailjs from '@emailjs/browser';
+import { Slide } from "react-awesome-reveal";
 
 
 export const Contact = () => {
@@ -52,10 +53,12 @@ export const Contact = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
+          <Slide triggerOnce="true">
           <img  src={contactImg} alt="Contact Us"/>
+          </Slide>
           </Col>
           <Col size={12} md={6}>
-            
+                <Slide direction="right" triggerOnce="true">
                 <h2>Get In Touch</h2>
                 <form onSubmit={handleSubmit}>
                   <Row>
@@ -84,6 +87,7 @@ export const Contact = () => {
                     }
                   </Row>
                 </form>
+                </Slide>
              
           </Col>
         </Row>

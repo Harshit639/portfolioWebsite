@@ -10,11 +10,13 @@ import Education from './components/Education';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Experience from './components/Experience';
 import ExperienceDetails from './components/EcperienceDetails';
+import { Fade } from "react-awesome-reveal";
 
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
+    <Fade><NavBar></NavBar></Fade>
+      
       <Banner></Banner>
       <Skills></Skills>
       <Education></Education>

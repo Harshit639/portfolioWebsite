@@ -8,6 +8,7 @@ import news from "../assets/img/news.webp"
 import poll from "../assets/img/final.jpeg"
 import mobile from "../assets/img/mobile.jpeg"
 import tic from "../assets/img/tictac.jpeg"
+import { JackInTheBox, Roll, Slide } from "react-awesome-reveal";
 
 
 export const Projects = () =>{
@@ -92,8 +93,10 @@ export const Projects = () =>{
                       <Nav.Link eventKey="third">ML</Nav.Link>
                     </Nav.Item>
                     </Nav>
+                    <Slide triggerOnce="true">
                     <Tab.Content id="slideInUp">
                     <Tab.Pane eventKey="first">
+                    
                       <Row>
                         {
                           projects.map((project, index) => {
@@ -136,7 +139,9 @@ export const Projects = () =>{
                       </Row>
                     </Tab.Pane>
                   </Tab.Content>
+                  </Slide>
                  </Tab.Container>
+                 
                     </Col>
                     </Row>
             </Container>

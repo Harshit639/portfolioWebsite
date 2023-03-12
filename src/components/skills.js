@@ -5,6 +5,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
 import { Container, Row, Col } from 'react-bootstrap';
+import { Slide } from "react-awesome-reveal";
 
 export const Skills = () =>{
     const responsive = {
@@ -38,6 +39,7 @@ export const Skills = () =>{
                     <p>
                     Every skill you acquire doubles your odds of success.
                     </p>
+                    <Slide triggerOnce="true">
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className='item'> 
                         <img src={meter1}></img>
@@ -53,6 +55,7 @@ export const Skills = () =>{
                         </div>
                        
                     </Carousel>
+                    </Slide>
                     </div>
                     </Col>
                 </Row>
