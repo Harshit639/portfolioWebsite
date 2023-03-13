@@ -11,7 +11,7 @@ function Experience(){
              <p>The only source of knowledge is experience.</p>
             <Row className="align-items-center">
         <Col xs={12} md={7} xl={6}  >
-        <Slide triggerOnce="true">
+        <Slide triggerOnce="true" >
        
      <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_96bovdur.json"  background="transparent"  speed="1"    loop  autoplay></lottie-player>
      </Slide>

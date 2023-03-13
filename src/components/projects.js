@@ -93,9 +93,9 @@ export const Projects = () =>{
                       <Nav.Link eventKey="third">ML</Nav.Link>
                     </Nav.Item>
                     </Nav>
-                    <Slide triggerOnce="true">
+                    <Slide triggerOnce="true" >
                     <Tab.Content id="slideInUp">
-                    <Tab.Pane eventKey="first">
+                    <Tab.Pane eventKey="first" >
                     
                       <Row>
                         {

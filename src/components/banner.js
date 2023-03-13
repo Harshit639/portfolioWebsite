@@ -55,7 +55,7 @@ export const Banner =()=>{
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
-          <Slide triggerOnce="true">
+          <Slide triggerOnce="true" damping="2">
             
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Harshit`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
@@ -64,7 +64,7 @@ export const Banner =()=>{
           </Slide>
           </Col>
           <Col xs={12} md={6} xl={5}>
-          <Slide direction="right" triggerOnce="true">
+          <Slide direction="right" triggerOnce="true" damping="2">
           <img src={headerImg} alt="Header Img"/>
           </Slide>
               

@@ -58,7 +58,7 @@ export const Contact = () => {
           </Slide>
           </Col>
           <Col size={12} md={6}>
-                <Slide direction="right" triggerOnce="true">
+                <Slide direction="right" triggerOnce="true" >
                 <h2>Get In Touch</h2>
                 <form onSubmit={handleSubmit}>
                   <Row>

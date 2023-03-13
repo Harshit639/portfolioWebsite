@@ -35,8 +35,8 @@ export default function ExperienceDetails() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails style={{backgroundColor:'black', display:'flex', flexDirection:'column', alignItems:'center'}}>
-          <WithHeaderStyledExample companyname="Climec Labs" skill1="Worked on the development of app for controlling Aerem Device(MQTT,Firebase,React Native)" skill2="Worked on App Development projects using Java and Kotlin." small="ClimecLabs"/>
-          <WithHeaderStyledExample companyname="Waveforms Labs" skill1="Assisted in the development of the new website." skill2="Worked on the creation of a new Firebase database to increase overall efficiency and transparency." small="Waveforms Labs" />
+          <WithHeaderStyledExample companyname="Climec Labs" skill1="Worked on the development of app for controlling Aerem Device(MQTT,Firebase,React Native)" skill2="Worked on App Development projects using Java and Kotlin." small="ClimecLabs" link="http://www.climeclabs.com/"/>
+          <WithHeaderStyledExample companyname="Waveforms Labs" skill1="Assisted in the development of the new website." skill2="Worked on the creation of a new Firebase database to increase overall efficiency and transparency." small="Waveforms Labs" link='https://www.waveformlabs.in/' />
           {/* <Typography>Greetings of the day :)</Typography> */}
         </AccordionDetails>
       </Accordion>

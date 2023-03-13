@@ -806,6 +806,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   
 }
 
+@media (max-width: 767px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
 /* 
 #styledacc{
   --bs-accordion-bg: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);

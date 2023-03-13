@@ -39,7 +39,7 @@ export const Skills = () =>{
                     <p>
                     Every skill you acquire doubles your odds of success.
                     </p>
-                    <Slide triggerOnce="true">
+                    <Slide triggerOnce="true" fraction={0.3}>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className='item'> 
                         <img src={meter1}></img>

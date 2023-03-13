@@ -16,11 +16,11 @@ function Education(){
              
             <Row className="align-items-center">
         <Col xs={12} md={12} xl={6}  >
-        <Slide triggerOnce="true">
+        <Slide triggerOnce="true" >
             
         <Card  id='cardedu' border="dark" style={{ width: '90%', marginTop: '3rem', marginLeft:'4%' }}>
         <Card.Header id="cardheader">
-        <p>SRM Institute of Science and Technology</p> 
+        <p>SRM Unversity</p> 
         <p>2020-</p>
         </Card.Header>
         <Card.Body className='cardbody'>
@@ -33,7 +33,7 @@ function Education(){
           <EditIcon/>
           I have studied various core Computer Science subjects like Data Structures, Algorithms, Operating Systems.
           </Card.Text>
-          <Card.Text className='cardtext'>
+          <Card.Text className='cardtext hidden-mobile'>
           <EditIcon/>
           I actively engage with various communities and grow and learn with them.
           </Card.Text>
@@ -48,7 +48,7 @@ function Education(){
 
       <Card  id='cardedu' border="dark" style={{ width: '90%', marginTop: '3rem', marginLeft:'4%' }}>
       <Card.Header id="cardheader2" >
-        <p>Delhi Public School, Lucknow</p> 
+        <p>DPS, Lucknow</p> 
         <p>2006-2020</p>
         </Card.Header>
         <Card.Body  className="cardbody">
@@ -61,7 +61,7 @@ function Education(){
           <EditIcon/>
           School Sports Captain and prefect for 4 years.
           </Card.Text>
-          <Card.Text className='cardtext'>
+          <Card.Text className='cardtext hidden-mobile'>
           <EditIcon/>
           Played for the State and National basketball Team for three years.
           </Card.Text>
