@@ -9,6 +9,10 @@ import poll from "../assets/img/final.jpeg"
 import mobile from "../assets/img/mobile.jpeg"
 import tic from "../assets/img/tictac.jpeg"
 import { JackInTheBox, Roll, Slide } from "react-awesome-reveal";
+import infinity from '../assets/img/infinity.png'
+import cookbook from '../assets/img/cookbook.jpeg'
+import expensify from '../assets/img/expensify.png'
+import foursquare from '../assets/img/foursquare.webp'
 
 
 export const Projects = () =>{
@@ -21,16 +25,16 @@ export const Projects = () =>{
             checkout: "https://reflowtech.in/",
           },
           {
+            title: "Infinit-I",
+            description: "Design & Development",
+            imgUrl: infinity,
+            checkout: "https://reflowtech.in/infinity.html",
+          },
+          {
             title: "Basket Social",
             description: "Design & Development",
             imgUrl: basketball,
             checkout: "http://basketssocial.pythonanywhere.com/",
-          },
-          {
-            title: "Wecare NGO",
-            description: "Design & Development",
-            imgUrl: charity,
-            checkout: "https://wecare.pythonanywhere.com/",
           },
           
          
@@ -41,35 +45,63 @@ export const Projects = () =>{
             title: "Around the Rim",
             description: "Android App",
             imgUrl: mobile,
-            checkout: "https://github.com/Harshit639?tab=repositories",
+            checkout: "https://github.com/Harshit639",
           },
           {
             title: "Air Patrol",
             description: "Android App",
             imgUrl: poll,
-            checkout: "https://github.com/Harshit639?tab=repositories",
+            checkout: "https://github.com/Harshit639",
           },
           {
             title: "Hacker News",
             description: "Android App",
             imgUrl: news,
-            checkout: "https://github.com/Harshit639?tab=repositories",
+            checkout: "https://github.com/Harshit639",
           },
           {
             title: "Tic Tac Toe",
             description: "Android App",
             imgUrl: tic,
-            checkout: "https://github.com/Harshit639?tab=repositories",
+            checkout: "https://github.com/Harshit639",
           },
          
     ];
+
+    const reactnativeprojects =[
+      {
+        title: "Infinit-I",
+        description: "React Native App",
+        imgUrl: mobile,
+        checkout: "https://github.com/Harshit639",
+      },
+      {
+        title: "Expensify",
+        description: "React Native App",
+        imgUrl: expensify,
+        checkout: "https://github.com/Harshit639",
+      },
+      {
+        title: "Four Square",
+        description: "React Native App",
+        imgUrl: foursquare,
+        checkout: "https://github.com/Harshit639",
+      },
+      {
+        title: "CookPad",
+        description: "React Native App",
+        imgUrl: cookbook,
+        checkout: "https://github.com/Harshit639",
+      },
+
+    ]
 
     const mlprojects= [ 
         {
             title: "Air Patrol",
             description: "AI &  ML",
             imgUrl: poll,
-            checkout: "https://github.com/Harshit639?tab=repositories",
+            checkout: "https://github.com/Harshit639",
           },
          
     ];
@@ -90,8 +122,12 @@ export const Projects = () =>{
                       <Nav.Link eventKey="second">Android</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
+                      <Nav.Link eventKey="fourth">RN</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
                       <Nav.Link eventKey="third">ML</Nav.Link>
                     </Nav.Item>
+                    
                     </Nav>
                     <Slide triggerOnce="true" >
                     <Tab.Content id="slideInUp">
@@ -128,6 +164,20 @@ export const Projects = () =>{
                     <Row>
                         {
                           mlprojects.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="fourth">
+                    <Row>
+                        {
+                          reactnativeprojects.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
